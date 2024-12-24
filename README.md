@@ -2,7 +2,17 @@
 
 ## Do you want to add a sample ?
 
-Just add a pull request with the description og your sample ! ^^ 
+Just add a pull request with the description og your sample ! ^^
+
+## How to rebuild zip archive from zip parts
+**WINDOWS**
+```bash
+copy /B memory.zip.* memory.zip
+```
+**LINUX**
+```bash
+cat memory.zip.* > memory.zip
+```
 
 ## ZEUS
 Zeus, or Zbot, is a notorious banking Trojan first identified in 2007. Designed to steal sensitive data like banking credentials, it uses techniques such as keylogging, man-in-the-browser attacks, and traffic manipulation. Its modular architecture and a leaked source code in 2011 have led to numerous variants.
